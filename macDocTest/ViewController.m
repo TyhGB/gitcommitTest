@@ -13,6 +13,11 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    NSLog(@"start");
+    NSString *doc = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSLog(@"doc:%@",doc);
+    NSLog(@"doc2");
+    NSLog(@"doc3");
 }
 
 
