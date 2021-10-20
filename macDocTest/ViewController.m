@@ -45,6 +45,18 @@
 //commit 6
 }
 
+- (void)func7 {
+//commit 6
+}
+
+- (void)func8 {
+//commit 8
+}
+
+- (void)func9 {
+//commit 9
+}
+
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
 
